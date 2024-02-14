@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+    <style>
+    #principal{
+                text-align: center;
+            }
+            p{
+                height: 100px;
+                width: 100px;
+
+                background-color: lightgrey;
+                color: darkblue;
+
+                border-width: 2px; /*largura da borda*/
+                border-style: solid; /*estilo da borda*/
+                border-color: red;/*cor da borda*/
+                border: 2px  solid red;/*---simplificação---*/
+
+                /*dentro da borda/entre a borda e o texto*/
+                padding-top: 20px; /*distanciamento no topo*/
+                padding-right: 20px; /*distanciamento na direita*/
+                padding-bottom: 20px; /*distanciamento em baixo */
+                padding-left: 20px; /*distanciamento na esquerda*/
+                padding: 10px 10px 10px 10px ; /*---simplificação---*/
+
+                /*ao redor da borda*/
+                margin-top:30px;
+                margin-right:30px;
+                margin-bottom:30px;
+                margin-left:30px;
+                margin: 30px 30px/*auto*/ 30px 30px/*auto*/;  /*---simplificação---*/
+                /*margin: auto; -->centraliza a caixa--*/
+
+                /*contorno da borda/entre a borda e a margin*/
+                /*configurado do mesmo jeito que a borda*/
+                outline-width: 10px; 
+                outline-style: dashed;
+                outline-color: slateblue;
+            }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Modificando os elementos de uma caixa</h1>
+    <p>paragrafo</p>
+    <a href="#">link</a>
+</body>
+</html>

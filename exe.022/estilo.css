@@ -1,0 +1,30 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif /*fonte usada*/
+}
+main { /*iniciando o corpo principal*/
+    background-color: white; /*cor de fundo do corpo principal*/
+    width: 500px; /*largura do corpo principal*/
+    border-radius: 10px; /*arredondamento das bordas do corpo principal*/ 
+    box-shadow: 5px 5px  20px  #5e3126; /*sombreamento do corpo principal*/
+    padding: 12px; /*espaçamento entre as bordas do corpo principal e seu conteudo*/
+    margin: auto;/*faz com que o corpo principal se encontre no meio da pagina independente do tamanho da tela*/
+
+}
+body {
+    background-image: linear-gradient(90deg,#FFBC8F,#d6975c); /*cores do degradê*/
+}
+h1 {
+    text-align: center; /*centraliza o titulo principal*/
+    text-shadow:3px 3px 5px  black; /*sombreamento do titulo principal*/
+    color: #0b003b; /*cor do titulo principal*/
+}
+h2 {
+    color: #510180;
+}
+h3 {
+    color: #4f017c;
+}
+p {
+    text-align: justify ; /*organiza os paragrafos.*/
+}

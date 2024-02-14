@@ -1,0 +1,31 @@
+body{
+    background-color: #D8D9D7;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    background-color: rgb(12, 7, 56)
+}h2{
+    color: #F21B42;
+}
+h3{
+    color: green;
+}
+p{
+    text-indent: 20px;
+}
+/*classes*/
+.facil{
+    color: green;
+}
+.media{
+    color: rgb(184, 184, 2);
+}
+.avancada{
+    color: #D91C0B;
+} 
+.principal{
+    text-align: center;
+    background-color: #000000;
+    color: rgb(206, 41, 0);
+}

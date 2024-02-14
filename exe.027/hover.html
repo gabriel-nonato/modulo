@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houver</title>
+    <style>
+        /*div e um espaço inteiro*/
+        div:hover{
+            color: red;
+        }
+        div > p{
+            display: none;             
+        }
+        div:hover > p{
+            display: block;
+            background-color: black;
+            color: white;}
+    </style>
+</head>
+<body>
+    <p>coloque o mouse a baixo</p>
+    <div>
+        COLOQUE O MOUSE AQUI
+        <p>RETIRE O MOUSE DAQUI</p>
+    </div>
+    <p>fim de exemplo</p>
+</body>
+</html>

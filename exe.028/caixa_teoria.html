@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            background-color: darkblue;
+            color: white;
+        }
+        .quebra{
+            color: red;
+        }#principal{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Trabalhando com caixas</h1>
+    <h1>Elementos de caixas</h1>
+    <img src="imagens/elementos de uma caixa pt1.png" alt="caixas">
+
+    <img src="imagens/elementos de caixa pt 2.png" alt="caixa2">
+
+    <img src="imagens/elementos de uma caixa pt3.png" alt="caixa3">
+
+    <h1>Tipos de caixas</h1>
+
+    <h2>box-level</h2>
+    <p>são tipos de caixas que ocupam a largura total da tela do navegador</p>
+    <p>por exemplo se eu tenho um um texto que vai ate aqui. <br><span class="quebra">o box-level vai se iniciar em outra linha e ocupara essa linha por inteiro</span> <br> e caso uma outra caixa seja criada ela se iniciara em uma outra linha</p>
+    <p>são exemplos de box-level as caixas/tag</p>
+    <ul>
+        <li>div</li>
+        <li>h1-h6</li>
+        <li>main</li>
+        <li>header</li>
+        <li>video</li>
+        <li>img</li>
+        <li>nav</li>
+        <li>artifice</li>
+        <li class="quebra">entre outros</li>
+    </ul>
+
+    <h2>inline-level</h2>
+    <p>ja os elementos do tipo inline-level não ocupam um espaço todo.</p>
+    <p>por exemplo se eu quero criar um elemento do tipo inline-level <span class="quebra">essa caixa não vai ocupar a linha toda</span> e caso outra caixa seja criada ela se iniciara (se huver espaço) na mesama linha da caixa inline-level</p>
+    <p>são exemplos de inline-level as caixas/tags</p>
+    <ul>
+        <li>span</li>
+        <li>a</li>
+        <li>code</li>
+        <li>small</li>
+        <li>strong</li>
+        <li>sub-sup</li>
+        <li>button</li>
+        <li>label</li>
+        <li class="quebra">entre outros</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a{
+            color: red;
+            text-decoration: none; /*link sem sublinhado*/
+        }
+        a:visited{/*links visitados*/
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline black; /*sublinhar quando passar o mouse*/
+        }
+        a:active{/*link clicado*/
+            color: black;
+        }
+        a::after {
+            content: ' [✽]';
+            color: black;
+        }
+        a::before{
+            content: '[link >] ';
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+        <li><a target='_blank' href="https://www.youtube.com/watch?v=21mDekTZwsw">link</a></li>
+        <li><a href="https://www.youtube.com/watch?v=FaoVpVXcZsA" target="_blank">link</a></li>
+        <li><a href="https://www.youtube.com/watch?v=uR4DE_4GV7o" target="_blank">link</a></li>
+</body>
+</html>

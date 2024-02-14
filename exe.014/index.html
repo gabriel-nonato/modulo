@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diferentes imagens</title>
+</head>
+<body>
+    <h1>imagem adaptavel</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/imagem-m.png" type="image/png">
+        <img src="imagem/imagem-g.png" alt="imagem grande">
+    </picture>
+</body>
+</html>
